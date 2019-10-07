@@ -14,6 +14,8 @@ namespace CryptoTechProject.Tests
         ViewWorkshops viewWorkshops = new ViewWorkshops(gateway);
         Assert.AreEqual(new JObject(), viewWorkshops.Execute());                
         }
+        
+        
 
     }
 }
