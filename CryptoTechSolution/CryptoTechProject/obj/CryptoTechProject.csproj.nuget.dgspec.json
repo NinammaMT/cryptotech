@@ -35,6 +35,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "JObject": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
