@@ -5,4 +5,10 @@
         <TargetFramework>netcoreapp3.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="JObject" Version="1.0.0" />
+      <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    </ItemGroup>
+
+ 
 </Project>
